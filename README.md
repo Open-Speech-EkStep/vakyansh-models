@@ -1,1 +1,1 @@
-# vakyaansh-models
+# vakyansh-models
