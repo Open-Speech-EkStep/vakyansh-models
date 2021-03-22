@@ -2,23 +2,23 @@
 
 ## Pretrained Models
 
-| Pretrained Model | Pretrained Hours          | 
-|------------------|-------------------|
-| [hindi_pretrained_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/pretrained/hindi_pretrained_4kh.pt) |   4200             | 
-| [kannada_pretrained_1400h](https://storage.googleapis.com/vakyaansh-open-models/kannada/pretrained/kannada_pretrained_1400h.pt) | 1400               |
+| Pretrained Model | Architecture | Pretrained Hours          | 
+|------------------|----------|---------|
+| [hindi_pretrained_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/pretrained/hindi_pretrained_4kh.pt) | Base |  4200             | 
+| [kannada_pretrained_1400h](https://storage.googleapis.com/vakyaansh-open-models/kannada/pretrained/kannada_pretrained_1400h.pt) | XLSR | 1400               |
 
 
 ## Finetuned Models
-| Language | Pretrained Model | Finetuned Model | Finetuned Hours | Dictionary |
-|----|--------|---------|-------------------|-------|
-| Hindi | hindi_pretrained_4kh | [hindi_pretrained_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/finetuned/hindi_finetuned_4kh.pt) |   4200             | [dict](https://storage.googleapis.com/vakyaansh-open-models/hindi/dictionary/dict.ltr.txt) |
-| Kannada | kannada_pretrained_1400h | [kannada_finetuned_570h](https://storage.googleapis.com/vakyaansh-open-models/kannada/finetuned/kannada_finetuned_570h.pt) |  570             | [dict](https://storage.googleapis.com/vakyaansh-open-models/kannada/dictionary/dict.ltr.txt) |
-| English | english_finetuned_181h | [english_finetuned_181h](https://storage.googleapis.com/vakyaansh-open-models/english/finetuned/english_finetuned_181h.pt) |  181             | [dict](https://storage.googleapis.com/vakyaansh-open-models/english/dictionary/dict.ltr.txt) |
-| Marathi | hindi_pretrained_4kh | [marathi_finetuned_100h](https://storage.googleapis.com/vakyaansh-open-models/marathi/finetuned/marathi_finetuned_100h.pt) |   100             | [dict](https://storage.googleapis.com/vakyaansh-open-models/marathi/dictionary/dict.ltr.txt) |
-| Odia | hindi_pretrained_4kh |[odia_finetuned_100h](https://storage.googleapis.com/vakyaansh-open-models/odia/finetuned/odia_finetuned_100h.pt) |   100             | [dict](https://storage.googleapis.com/vakyaansh-open-models/odia/dictionary/dict.ltr.txt) |
-| Tamil | hindi_pretrained_4kh |[tamil_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/tamil/finetuned/tamil_finetuned_40h.pt) |   40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/tamil/dictionary/dict.ltr.txt) |
-| Telugu | hindi_pretrained_4kh |[telugu_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/telugu/finetuned/telugu_finetuned_40h.pt) |   40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/telugu/dictionary/dict.ltr.txt) |
-| Gujarati | hindi_pretrained_4kh |[gujarati_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/gujarati/finetuned/gujarati_finetuned_40h.pt) |   40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/gujarati/dictionary/dict.ltr.txt) |
+| Language | Pretrained Model | Architecture | Finetuned Model | Finetuned Hours | Dictionary |
+|----|--------|----|-----|-------------------|-------|
+| Hindi | hindi_pretrained_4kh | Base | [hindi_pretrained_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/finetuned/hindi_finetuned_4kh.pt) |   4200             | [dict](https://storage.googleapis.com/vakyaansh-open-models/hindi/dictionary/dict.ltr.txt) |
+| Kannada | kannada_pretrained_1400h | XLSR | [kannada_finetuned_570h](https://storage.googleapis.com/vakyaansh-open-models/kannada/finetuned/kannada_finetuned_570h.pt) |  570             | [dict](https://storage.googleapis.com/vakyaansh-open-models/kannada/dictionary/dict.ltr.txt) |
+| English | english_finetuned_181h | Base | [english_finetuned_181h](https://storage.googleapis.com/vakyaansh-open-models/english/finetuned/english_finetuned_181h.pt) |  181             | [dict](https://storage.googleapis.com/vakyaansh-open-models/english/dictionary/dict.ltr.txt) |
+| Marathi | hindi_pretrained_4kh | Base | [marathi_finetuned_100h](https://storage.googleapis.com/vakyaansh-open-models/marathi/finetuned/marathi_finetuned_100h.pt) |   100             | [dict](https://storage.googleapis.com/vakyaansh-open-models/marathi/dictionary/dict.ltr.txt) |
+| Odia | hindi_pretrained_4kh | Base |[odia_finetuned_100h](https://storage.googleapis.com/vakyaansh-open-models/odia/finetuned/odia_finetuned_100h.pt) |   100             | [dict](https://storage.googleapis.com/vakyaansh-open-models/odia/dictionary/dict.ltr.txt) |
+| Tamil | hindi_pretrained_4kh | Base |[tamil_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/tamil/finetuned/tamil_finetuned_40h.pt) |   40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/tamil/dictionary/dict.ltr.txt) |
+| Telugu | hindi_pretrained_4kh | Base |[telugu_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/telugu/finetuned/telugu_finetuned_40h.pt) |   40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/telugu/dictionary/dict.ltr.txt) |
+| Gujarati | hindi_pretrained_4kh | Base |[gujarati_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/gujarati/finetuned/gujarati_finetuned_40h.pt) |   40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/gujarati/dictionary/dict.ltr.txt) |
 
 
 ## Language Models
