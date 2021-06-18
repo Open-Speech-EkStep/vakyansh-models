@@ -6,7 +6,7 @@
 |------------------|----------|----|---------|-----|
 | [hindi_pretrained_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/pretrained/hindi_pretrained_4kh.pt) | Trained on 4200 hours of Hindi Data| Base |  4200             |  |
 | [kannada_pretrained_1400h](https://storage.googleapis.com/vakyaansh-open-models/kannada/pretrained/kannada_pretrained_1400h.pt) | Trained on 1400 hours of Kannada data| XLSR | 1400             | |
-| [CLRIL-23](https://storage.googleapis.com/vakyaansh-open-models/hindi/pretrained/CLRIL-23.pt) | Cross Lingual Representations for Indic Languages, Contains 10,000 hours of training data from 23 Indic Languages | Base | 10,000               | [wandb](https://wandb.ai/harveenchadha/EKSTEP-PRETRAINING)|
+| [CLSRIL-23](https://storage.googleapis.com/vakyaansh-open-models/hindi/pretrained/CLSRIL-23.pt) | Cross Lingual Representations for Indic Languages, Contains 10,000 hours of training data from 23 Indic Languages | Base | 10,000               | [wandb](https://wandb.ai/harveenchadha/EKSTEP-PRETRAINING)|
 
 
 
