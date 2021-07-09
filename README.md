@@ -11,7 +11,7 @@
 
 
 ## Finetuned Models
-| Language | Pretrained Model | Architecture | Finetuned Model | Custom Model | Finetuned Hours | Dictionary |
+| Language | Pretrained Model | Architecture | Finetuned Model | Single Model for Inference | Finetuned Hours | Dictionary |
 |----|--------|----|-----|----|-------------------|-------|
 | Hindi | hindi_pretrained_4kh | Base | [hindi_finetuned_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/finetuned/hindi_finetuned_4kh.pt) | [hindi_custom_model](https://storage.googleapis.com/vakyaansh-open-models/hindi/custom_model/hindi.pt) |  4200             | [dict](https://storage.googleapis.com/vakyaansh-open-models/hindi/dictionary/dict.ltr.txt) |
 | Kannada | kannada_pretrained_1400h | XLSR | [kannada_finetuned_570h](https://storage.googleapis.com/vakyaansh-open-models/kannada/finetuned/kannada_finetuned_570h.pt) | [kannada_custom_model](https://storage.googleapis.com/vakyaansh-open-models/kannada/custom_model/kannada_v2.pt)| 570             | [dict](https://storage.googleapis.com/vakyaansh-open-models/kannada/dictionary/dict.ltr.txt) |
