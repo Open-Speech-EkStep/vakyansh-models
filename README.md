@@ -29,6 +29,7 @@
 | Odia |
 | Urdu |
 | Punjabi |
+| Maithili |
 
 
 *\*Note: All future models will be open sourced on v2-hydra branch*
