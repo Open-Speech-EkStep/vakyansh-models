@@ -31,6 +31,7 @@
 | Punjabi |
 | Maithili |
 | Dogri |
+| Konkani |
 
 
 *\*Note: All future models will be open sourced on v2-hydra branch*
