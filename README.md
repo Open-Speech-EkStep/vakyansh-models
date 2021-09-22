@@ -30,7 +30,7 @@
 | Maithili | CLSRIL-23 | [maim_50](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/maim_50h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/dict.ltr.txt) | [maithili_infer](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/maithili_infer.pt) | 50h | [maithili_logs](https://wandb.ai/harveenchadha/maithili-finetuning-multilingual)
 | Urdu | CLSRIL-23 |
 | Punjabi | CLSRIL-23 |
-| Dogri | CLSRIL-23 |
+
 
 
 *\*Note: All future models will be open sourced on v2-hydra branch*
