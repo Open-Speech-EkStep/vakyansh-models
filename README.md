@@ -57,8 +57,12 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Odia | kenlm 5-gram | [odia_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/lexicon.lst) | [odia_lm](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/lm.binary) | 
 | Sanskrit | kenlm 5-gram | [sanskrit_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/lexicon.lst) | [sanskrit_lm](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/lm.binary)
 | Maithili | kenlm 5-gram | [maithili_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/lexicon.lst) | [maithili_lm](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/lm.binary)
-
-
+| Urdu | kenlm 5-gram | [urdu_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/lexicon.lst) | [urdu_lm](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/lm.binary)
+| Punjabi | kenlm 5-gram | [punjabi_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/lexicon.lst) | [punjabi_lm](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/lm.binary)
+| Dogri | kenlm 5-gram | [dogri_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/lexicon.lst) | [dogri_lm](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/lm.binary)
+| Malayalam | kenlm 5-gram | [malayalam_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/lexicon.lst) | [malayalam_lm](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/lm.binary)
+| Bhojpuri | kenlm 5-gram | [bhojpuri_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/lexicon.lst) | [bhojpuri_lm](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/lm.binary)
+| Rajasthani | kenlm 5-gram | [rajasthani_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/lexicon.lst) | [rajasthani_lm](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/lm.binary)
 
 
 
