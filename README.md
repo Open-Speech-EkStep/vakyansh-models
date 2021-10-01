@@ -2,6 +2,7 @@
 
 ## Pretrained Models
 
+
 | Pretrained Model | Description | Architecture | Pretrained Hours |
 |------------------|----------|----|---------|
 | [CLSRIL-23](https://storage.googleapis.com/vakyaansh-open-models/hindi/pretrained/CLSRIL-23.pt) | Cross Lingual Speech Representations for Indic Languages, Contains 10,000 hours of training data from 23 Indic Languages. <br> [Citation: https://arxiv.org/abs/2107.07402 ](https://arxiv.org/abs/2107.07402 ) | Base | 10,000               | 
@@ -15,7 +16,7 @@
 ## Finetuned Models (works on [v2-hydra](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/v2-hydra) branch*)
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference | Finetuned Hours | TS model |
-|----|--------|----|-----|-------------------|-------|----|
+|----|--------|----|-----|-------------------|-------|---|
 | Hindi | CLSRIL-23 | [him_4200](https://storage.googleapis.com/vakyansh-open-models/models/hindi/hi-IN/him_4200.pt ) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/hindi/hi-IN/dict.ltr.txt ) | [hindi_infer](https://storage.googleapis.com/vakyansh-open-models/models/hindi/hi-IN/hindi_infer.pt) | 4200 h | [hindi_ts](https://storage.googleapis.com/vakyansh-open-models/models/hindi/hi-IN/vakyansh-wav2vec2-hindi-him-4200_quant.pt)
 | Indian English | CLSRIL-23 | [enm_700](https://storage.googleapis.com/vakyansh-open-models/models/english/en-IN/enm_700.pt ) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/english/en-IN/dict.ltr.txt) | [english_infer]( https://storage.googleapis.com/vakyansh-open-models/models/english/en-IN/english_infer.pt ) | 700 h | [english_ts](https://storage.googleapis.com/vakyansh-open-models/models/english/en-IN/vakyansh-wav2vec2-indian-english-enm-700_quant.pt)
 | Kannada | CLSRIL-23 | [knm_560](https://storage.googleapis.com/vakyansh-open-models/models/kannada/kn-IN/knm_560.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/kannada/kn-IN/dict.ltr.txt) | [kannada_infer](https://storage.googleapis.com/vakyansh-open-models/models/kannada/kn-IN/kannada_infer.pt ) | 560 h | [kannada_ts](https://storage.googleapis.com/vakyansh-open-models/models/kannada/kn-IN/vakyansh-wav2vec2-kannada-knm-560_quant.pt)
@@ -24,6 +25,16 @@
 | Nepali | CLSRIL-23 | [nem_130](https://storage.googleapis.com/vakyansh-open-models/models/nepali/ne-IN/nem_130.pt ) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/nepali/ne-IN/dict.ltr.txt) | [nepali_infer]( https://storage.googleapis.com/vakyansh-open-models/models/nepali/ne-IN/nepali_infer.pt ) | 130 h | [nepali_ts](https://storage.googleapis.com/vakyansh-open-models/models/nepali/ne-IN/vakyansh-wav2vec2-nepali-nem-130_quant.pt)
 | Telugu | CLSRIL-23 | [tem_100](https://storage.googleapis.com/vakyansh-open-models/models/telugu/te-IN/tem_100.pt ) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/telugu/te-IN/dict.ltr.txt ) | [telugu_infer](https://storage.googleapis.com/vakyansh-open-models/models/telugu/te-IN/telugu_infer.pt ) | 100 h | [telugu_ts](https://storage.googleapis.com/vakyansh-open-models/models/telugu/te-IN/vakyansh-wav2vec2-telugu-tem-100_quant.pt)
 | Gujarati | CLSRIL-23 | [gum_100](https://storage.googleapis.com/vakyansh-open-models/models/gujarati/gu-IN/gum_100.pt ) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/gujarati/gu-IN/dict.ltr.txt ) | [gujarati_infer](https://storage.googleapis.com/vakyansh-open-models/models/gujarati/gu-IN/gujarati_infer.pt ) | 100 h | [gujarati_ts](https://storage.googleapis.com/vakyansh-open-models/models/gujarati/gu-IN/vakyansh-wav2vec2-gujarati-gnm-100_quant.pt)
+| Marathi | CLSRIL-23 | [mrm_100](https://storage.googleapis.com/vakyansh-open-models/models/marathi/mr-IN/mrm_100.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/marathi/mr-IN/dict.ltr.txt) |  [marathi_infer](https://storage.googleapis.com/vakyansh-open-models/models/marathi/mr-IN/marathi_infer.pt) | 100 h | 
+| Odia | CLSRIL-23 | [orm_100](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/orm_100.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/dict.ltr.txt) | [odia_infer](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/odia_infer.pt) | 100 h | 
+| Sanskrit | CLSRIL-23 | [sam_60](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/sam_60.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/dict.ltr.txt) | [sanskrit_infer](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/sanskrit_infer.pt) | 60 h | 
+| Maithili | CLSRIL-23 | [maim_50](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/maim_50h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/dict.ltr.txt) | [maithili_infer](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/maithili_infer.pt) | 50 h | 
+| Urdu | CLSRIL-23 | [urm_60h](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/urm_60h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/dict.ltr.txt) | [urdu_infer](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/urm_infer.pt) | 60h |
+| Punjabi | CLSRIL-23 | [pam_10h](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/pam_10h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/dict.ltr.txt) | [punjabi_infer](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/punjabi_infer.pt) |  10 h |
+| Dogri | CLSRIL-23 | [doi_55h](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/doim_55h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/dict.ltr.txt) | [dogri_infer](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/dogri_infer.pt) | 55 h |
+| Malayalam | CLSRIL-23 | [mlm_8h](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/mlm_8h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/dict.ltr.txt) | [malayalam_infer](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/malayalam_infer.pt) | 8 h |
+| Bhojpuri | CLSRIL-23 | [bhom_60h](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/bhom_60h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/dict.ltr.txt) | [bhojpuri_infer](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/bhojpuri_infer.pt) | 60 h |
+| Rajasthani | CLSRIL-23 | [raj_45h](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/raj_45h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/dict.ltr.txt) | [rajasthani_infer](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/rajasthani_infer.pt) | 45 h |
 
 *\*Note: All future models will be open sourced on v2-hydra branch*
 
@@ -47,6 +58,13 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Odia | kenlm 5-gram | [odia_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/lexicon.lst) | [odia_lm](https://storage.googleapis.com/vakyansh-open-models/models/odia/or-IN/lm.binary) | 
 | Sanskrit | kenlm 5-gram | [sanskrit_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/lexicon.lst) | [sanskrit_lm](https://storage.googleapis.com/vakyansh-open-models/models/sanskrit/sa-IN/lm.binary)
 | Maithili | kenlm 5-gram | [maithili_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/lexicon.lst) | [maithili_lm](https://storage.googleapis.com/vakyansh-open-models/models/maithili/mai-IN/lm.binary)
+| Urdu | kenlm 5-gram | [urdu_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/lexicon.lst) | [urdu_lm](https://storage.googleapis.com/vakyansh-open-models/models/urdu/ur-IN/lm.binary)
+| Punjabi | kenlm 5-gram | [punjabi_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/lexicon.lst) | [punjabi_lm](https://storage.googleapis.com/vakyansh-open-models/models/punjabi/pa-IN/lm.binary)
+| Dogri | kenlm 5-gram | [dogri_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/lexicon.lst) | [dogri_lm](https://storage.googleapis.com/vakyansh-open-models/models/dogri/doi-IN/lm.binary)
+| Malayalam | kenlm 5-gram | [malayalam_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/lexicon.lst) | [malayalam_lm](https://storage.googleapis.com/vakyansh-open-models/models/malayalam/ml-IN/lm.binary)
+| Bhojpuri | kenlm 5-gram | [bhojpuri_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/lexicon.lst) | [bhojpuri_lm](https://storage.googleapis.com/vakyansh-open-models/models/bhojpuri/bho-IN/lm.binary)
+| Rajasthani | kenlm 5-gram | [rajasthani_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/lexicon.lst) | [rajasthani_lm](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/lm.binary)
+
 
 
 ## Domain Specific Language Models
@@ -58,32 +76,4 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 <br>
 
 <hr>
-
-## Finetuned Models (works on [v1](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/v1) branch) [Depreciated]
-| Language | Pretrained Model | Architecture | Finetuned Model | Single Model for Inference | Finetuned Hours | Dictionary |
-|----|--------|----|-----|----|-------------------|-------|
-| Hindi | hindi_pretrained_4kh | Base | [hindi_finetuned_4kh](https://storage.googleapis.com/vakyaansh-open-models/hindi/finetuned/hindi_finetuned_4kh.pt) | [hindi](https://storage.googleapis.com/vakyaansh-open-models/hindi/custom_model/hindi.pt) |  4200             | [dict](https://storage.googleapis.com/vakyaansh-open-models/hindi/dictionary/dict.ltr.txt) |
-| Kannada | kannada_pretrained_1400h | XLSR | [kannada_finetuned_570h](https://storage.googleapis.com/vakyaansh-open-models/kannada/finetuned/kannada_finetuned_570h.pt) | [kannada](https://storage.googleapis.com/vakyaansh-open-models/kannada/custom_model/kannada_v2.pt)| 570             | [dict](https://storage.googleapis.com/vakyaansh-open-models/kannada/dictionary/dict.ltr.txt) |
-| English | hindi_pretrained_4kh | Base | [english_finetuned_181h](https://storage.googleapis.com/vakyaansh-open-models/english/finetuned/english_finetuned_181h.pt) | [english](https://storage.googleapis.com/vakyaansh-open-models/english/custom_model/combined_model.pt) |181             | [dict](https://storage.googleapis.com/vakyaansh-open-models/english/dictionary/dict.ltr.txt) |
-| Marathi | hindi_pretrained_4kh | Base | [marathi_finetuned_100h](https://storage.googleapis.com/vakyaansh-open-models/marathi/finetuned/marathi_finetuned_100h.pt) | - | 100             | [dict](https://storage.googleapis.com/vakyaansh-open-models/marathi/dictionary/dict.ltr.txt) |
-| Odia | hindi_pretrained_4kh | Base |[odia_finetuned_100h](https://storage.googleapis.com/vakyaansh-open-models/odia/finetuned/odia_finetuned_100h.pt) | [odia](https://storage.googleapis.com/vakyaansh-open-models/odia/custom_model/odia_v1.pt) | 100             | [dict](https://storage.googleapis.com/vakyaansh-open-models/odia/dictionary/dict.ltr.txt) |
-| Tamil | hindi_pretrained_4kh | Base |[tamil_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/tamil/finetuned/tamil_finetuned_40h.pt) | [tamil](https://storage.googleapis.com/vakyaansh-open-models/tamil/custom_model/tamil.pt) | 40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/tamil/dictionary/dict.ltr.txt) |
-| Telugu | hindi_pretrained_4kh | Base |[telugu_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/telugu/finetuned/telugu_finetuned_40h.pt) | [telugu](https://storage.googleapis.com/vakyaansh-open-models/telugu/custom_model/telugu.pt) | 40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/telugu/dictionary/dict.ltr.txt) |
-| Gujarati | hindi_pretrained_4kh | Base |[gujarati_finetuned_40h](https://storage.googleapis.com/vakyaansh-open-models/gujarati/finetuned/gujarati_finetuned_40h.pt) | [gujarati](https://storage.googleapis.com/vakyaansh-open-models/gujarati/custom_model/gujarati.pt) | 40             | [dict](https://storage.googleapis.com/vakyaansh-open-models/gujarati/dictionary/dict.ltr.txt) |
-
-
-## Language Models [Depreciated]
-
-Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora/) but we do post processing by tokenizing and removing duplicates.
-
-| Language | Type | Data | Sentences | Lexicon | LM |
-|----|--------|---------|------|--|--------|
-| Hindi | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/hindi/lm_data/hi_processed.txt) | 13M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/hindi/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/hindi/lm/lm.binary) |
-| Kannada | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/hindi/lm_data/hi_processed.txt) | 21M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/kannada/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/kannada/lm/lm.binary) |
-| English | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/english/lm_data/en_processed.txt) | 10M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/english/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/english/lm/lm.binary) |
-| Marathi | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/marathi/lm_data/mr_processed.txt) | 22M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/marathi/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/marathi/lm/lm.binary) |
-| Odia | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/odia/lm_data/od_processed.txt) | 0.36M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/odia/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/odia/lm/lm.binary) |
-| Tamil | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/tamil/lm_data/ta_processed.txt) | 21M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/tamil/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/tamil/lm/lm.binary) |
-| Telugu | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/telugu/lm_data/te_processed.txt) | 26M | [lexicon](https://storage.googleapis.com/vakyaansh-open-models/telugu/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/telugu/lm/lm.binary) |
-| Gujarati | kenlm | [data](https://storage.googleapis.com/vakyaansh-open-models/gujarati/lm_data/gu_processed.txt) | 30M |[lexicon](https://storage.googleapis.com/vakyaansh-open-models/gujarati/lm/lexicon.lst) | [lm](https://storage.googleapis.com/vakyaansh-open-models/gujarati/lm/lm.binary) |
 
