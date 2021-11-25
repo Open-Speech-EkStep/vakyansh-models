@@ -75,5 +75,21 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 <br>
 <br>
 
+## Citation 
+
+
+If you use any of our resources, please cite the following article. 
+
+```
+@misc{gupta2021clsril23,
+      title={CLSRIL-23: Cross Lingual Speech Representations for Indic Languages}, 
+      author={Anirudh Gupta and Harveen Singh Chadha and Priyanshi Shah and Neeraj Chimmwal and Ankur Dhuriya and Rishabh Gaur and Vivek Raghavan},
+      year={2021},
+      eprint={2107.07402},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 <hr>
 
