@@ -1,6 +1,16 @@
 # Vakyansh Open Source Models
 
-## Pretrained Models
+
+## TTS Models ([Repo](https://github.com/Open-Speech-EkStep/vakyansh-tts))
+Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-tts) and [hifi GAN](https://github.com/jik876/hifi-gan) combination. 
+
+| Language | Gender | glow ckpt | hifi-gan ckpt | 
+| ------- | ----- | ---- | ------------ |
+| Hindi | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/glow.zip) | [voice_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/hifi.zip) |
+| Hindi | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/glow.zip) | [voice_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
+
+
+## Pretrained ASR Models
 
 
 | Pretrained Model | Description | Architecture | Pretrained Hours |
@@ -13,7 +23,7 @@
 <br>
 
 
-## Finetuned Models (works on [v2-hydra](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/v2-hydra) branch*)
+## Finetuned ASR Models (works on [v2-hydra](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/v2-hydra) branch*)
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference | Finetuned Hours | TS model |
 |----|--------|----|-----|-------------------|-------|---|
@@ -40,7 +50,7 @@
 
 
 
-## Language Models
+## Language Models (Works with Finetuned ASR Models)
 
 Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora/) but we do post processing by tokenizing and removing duplicates.
 
