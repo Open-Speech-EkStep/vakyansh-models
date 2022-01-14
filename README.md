@@ -8,6 +8,9 @@ Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-t
 | ------- | ----- | ---- | ------------ |
 | Hindi | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/glow.zip) | [voice_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/hifi.zip) |
 | Hindi | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/glow.zip) | [voice_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
+| Odia |
+| Malayalam |
+| Kannada |
 
 
 ## Pretrained ASR Models
