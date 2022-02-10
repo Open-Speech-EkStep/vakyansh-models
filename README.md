@@ -78,7 +78,7 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 
 
 
-## Punctutaion Models
+## Punctuation Models
 | Language | Model |
 |----------|-------|
 | Hindi | [hi.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/hi.zip)|
