@@ -77,6 +77,22 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Assamese | kenlm 5-gram | [assamese_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lexicon.lst) | [assamese_lm](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lm.binary) 
 
 
+
+## Punctutaion Models
+| Language | Model |
+|----------|-------|
+| Hindi | [hi.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/hi.zip)|
+| Assamese | [as.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/as.zip)|
+| Bengali | [bn.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/bn.zip)|
+| Gujarati | [gu.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/gu.zip)|
+| Kannada | [kn.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/kn.zip)|
+| Malayalam | [ml.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/ml.zip)|
+| Marathi | [mr.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/mr.zip)|
+| Odia | [or.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/or.zip)|
+| Punjabi | [pa.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/pa.zip)|
+| Tamil | [ta.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/ta.zip)|
+| Telugu | [te.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/te.zip)|
+
 ## Domain Specific Language Models
 | Language | Type | Domain | Lexicon | LM |
 |----|--------|---------|------|---|
