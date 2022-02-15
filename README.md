@@ -88,6 +88,10 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Rajasthani | kenlm 5-gram | [rajasthani_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/lexicon.lst) | [rajasthani_lm](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/lm.binary)
 | Assamese | kenlm 5-gram | [assamese_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lexicon.lst) | [assamese_lm](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lm.binary) 
 
+## Domain Specific Language Models
+| Language | Type | Domain | Lexicon | LM |
+|----|--------|---------|------|---|
+| English | kenlm 5-gram | Biomedical | [bio_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lexicon.lst ) | [bio_lm](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lm.binary )
 
 
 ## Punctuation Models
@@ -105,12 +109,8 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Tamil | [ta.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/ta.zip)| [tamil_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/tamil.zip)|
 | Telugu | [te.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/te.zip)| [telugu_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/telugu.zip)|
 
-## Domain Specific Language Models
-| Language | Type | Domain | Lexicon | LM |
-|----|--------|---------|------|---|
-| English | kenlm 5-gram | Biomedical | [bio_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lexicon.lst ) | [bio_lm](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lm.binary )
+Credits for punctuation data - [IndicCorp AI4Bharat](https://indicnlp.ai4bharat.org/corpora/)
 
-<br>
 <br>
 
 ## Citation 
