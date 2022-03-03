@@ -120,6 +120,17 @@ Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-gender-classif
 |----------|-------|
 |  Gender Classification |[Model](https://storage.googleapis.com/vakyansh-open-models/gender_classification/model/clf_svc.sav) |
 
+## Interspeech 2021 data ASR Models
+
+| Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference |
+|----|--------|----|-----|-------------------|
+| Telugu | CLSRIL-23 | [te_40h_interspeech ](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/telugu/te-IN/te_40h_interspeech.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/telugu/te-IN/dict.ltr.txt ) | [telugu_infer_interspeech](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/telugu/te-IN/telugu_infer_interspeech.pt) | 
+| Tamil | CLSRIL-23 | [ta_40h_interspeech ](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/tamil/ta-IN/ta_40h_interspeech.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/tamil/ta-IN/dict.ltr.txt) | [tamil_infer_interspeech](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/tamil/ta-IN/tamil_infer_interspeech.pt) | 
+| Gujarati | CLSRIL-23 | [gu_40h_interspeech ](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/gujarati/gu-IN/gu_40h_interspeech.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/gujarati/gu-IN/dict.ltr.txt) | [gujarati_infer_interspeech](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/gujarati/gu-IN/gujarati_infer_interspeech.pt) | 
+| Hinglish | CLSRIL-23 | [hinglish_interspeech](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/hinglish/hinglish_interspeech.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/hinglish/dict.ltr.txt) | [hinglish_infer_interspeech](https://storage.googleapis.com/vakyansh-open-models/interspeech_models/hinglish/hinglish_interspeech.pt) | 
+
+
+
 <br>
 
 ## Citation 
