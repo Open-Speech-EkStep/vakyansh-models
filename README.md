@@ -112,6 +112,14 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 
 Credits for punctuation data - [IndicCorp AI4Bharat](https://indicnlp.ai4bharat.org/corpora/)
 
+
+## Gender Classification Model
+Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-gender-classification)
+
+| Type | Data | 
+|----------|-------|
+|  Gender Classification |[Model](https://storage.googleapis.com/vakyansh-open-models/gender_classification/model/clf_svc.sav) |
+
 <br>
 
 ## Citation 
