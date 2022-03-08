@@ -120,6 +120,16 @@ Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-gender-classif
 |----------|-------|
 |  Gender Classification |[Model](https://storage.googleapis.com/vakyansh-open-models/gender_classification/model/clf_svc.sav) |
 
+## Language Identification Models
+Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-language-identification)
+
+| Type | Data | 
+|----------|-------|
+|  Hindi_vs_Others |[Model](https://storage.googleapis.com/vakyansh-open-models/language_identification/Hindi_vs_Other/hindi_vs_others.pt) |
+|  Tamil_vs_Others |[Model](https://storage.googleapis.com/vakyansh-open-models/language_identification/Tamil_vs_Other/tamil_vs_others.pt) |
+
+
+
 ## Interspeech 2021 data ASR Models
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference |
