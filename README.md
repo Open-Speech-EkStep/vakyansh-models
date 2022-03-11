@@ -29,7 +29,12 @@ Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-t
 | Odia | or | Male | [or_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip) | [or_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip)  |
 | Malayalam | ml | Female | [ml_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/female_voice_0/glow.zip) | [ml_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/female_voice_0/hifi.zip) |
 | Malayalam | ml | Male | [ml_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/glow.zip) | [ml_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/hifi.zip) |
-| Marathi | mr | Female | [mr_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/marathi/mr-IN/female_voice_0/glow.zip) | [mr_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/marathi/mr-IN/female_voice_0/hifi.zip)
+| Marathi | mr | Female | [mr_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/marathi/mr-IN/female_voice_0/glow.zip) | [mr_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/marathi/mr-IN/female_voice_0/hifi.zip) |
+| Gujarati | gu | Male | [gu_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/gujarati/gu-IN/male_voice_1/glow.zip) | [gu_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/gujarati/gu-IN/male_voice_1/hifi.zip) |
+| Bengali | bn | Female | [bn_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/female_voice_0/glow.zip) | [bn_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/female_voice_0/hifi.zip) |
+| Bengali | bn | Male | [bn_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/male_voice_1/glow.zip) | [bn_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/male_voice_1/hifi.zip) |
+| English | en | Female | [en_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/english/en-IN/female_voice_0/glow.zip) | [en_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/hifi.zip) |
+| English | en | Male | [en_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/english/en-IN/male_voice_1/glow.zip) | [en_1_hifi](ttps://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
 
 
 **Dataset Credits: We thanks IITM for open sourcing Indic-TTS dataset. [Link](https://www.iitm.ac.in/donlab/tts/database.php)**
