@@ -1,27 +1,41 @@
 # Vakyansh Open Source Models
 
+1. [ TTS Models ](#tts)
+2. [ Pretrained ASR Models ](#pam)
+3. [ Finetuned ASR Models ](#fam)
+4. [ Language Models ](#lm)
+5. [ Punctuation Models ](#pm)
+6. [ Gender Classification Models ](#gcm)
+7. [ Language Identification Models ](#lim)
+8. [Interspeech 2021 ASR Models](#iam)
 
-## TTS Models ([Repo](https://github.com/Open-Speech-EkStep/vakyansh-tts))
+<a name="tts"></a>
+## TTS Models 
 Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-tts) and [hifi GAN](https://github.com/jik876/hifi-gan) combination. 
 
-| Language | Gender | glow ckpt | hifi-gan ckpt | 
-| ------- | ----- | ---- | ------------ |
-| Hindi | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/glow.zip) | [voice_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/hifi.zip) |
-| Hindi | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/glow.zip) | [voice_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
-| Kannada | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/female_voice_0/fe_glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/ma_fe_hifi/ma_fe_hifi.zip) |
-| Kannada | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/male_voice_1/ma_glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/ma_fe_hifi/ma_fe_hifi.zip)  |
-| Tamil | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/female_voice_0/glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/ma_fe_hifi/hifi.zip) |
-| Tamil | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/male_voice_1/glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/ma_fe_hifi/hifi.zip)  |
-| Telugu | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/female_voice_0/glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/ma_fe_hifi/hifi.zip) |
-| Telugu | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/male_voice_1/glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/ma_fe_hifi/hifi.zip)  |
-| Odia | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/female_voice_0/glow.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip) |
-| Odia | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip) | [voice_0_and 1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip)  |
-| Malayalam | Female | [voice_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/female_voice_0/glow.zip) | [voice_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/female_voice_0/hifi.zip) |
-| Malayalam | Male | [voice_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/glow.zip) | [voice_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/hifi.zip) |
+**[Repo](https://github.com/Open-Speech-EkStep/vakyansh-tts)**
 
-Credits: We thanks IITM for providing open sourcing Indic-TTS dataset<br>
-[Link](https://www.iitm.ac.in/donlab/tts/database.php)
+| Language | Language Code | Gender | glow ckpt | hifi-gan ckpt | 
+| ------- | --- | -- | ---- | ------------ |
+| Hindi | hi |Female | [hi_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/glow.zip) | [hi_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/hifi.zip) |
+| Hindi | hi | Male | [hi_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/glow.zip) | [hi_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
+| Kannada | kn | Female | [kn_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/female_voice_0/fe_glow.zip) | [kn_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/ma_fe_hifi/ma_fe_hifi.zip) |
+| Kannada | kn | Male | [kn_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/male_voice_1/ma_glow.zip) | [kn_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/kannada/kn-IN/ma_fe_hifi/ma_fe_hifi.zip)  |
+| Tamil | ta |Female | [ta_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/female_voice_0/glow.zip) | [ta_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/ma_fe_hifi/hifi.zip) |
+| Tamil | ta |Male | [ta_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/male_voice_1/glow.zip) | [ta_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/tamil/ta-IN/ma_fe_hifi/hifi.zip)  |
+| Telugu | te | Female | [te_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/female_voice_0/glow.zip) | [te_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/ma_fe_hifi/hifi.zip) |
+| Telugu | te | Male | [te_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/male_voice_1/glow.zip) | [te_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/telugu/te-IN/ma_fe_hifi/hifi.zip)  |
+| Odia | or | Female | [or_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/female_voice_0/glow.zip) | [or_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip) |
+| Odia | or | Male | [or_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip) | [or_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/odia/or-IN/ma_fe_hifi/hifi.zip)  |
+| Malayalam | ml | Female | [ml_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/female_voice_0/glow.zip) | [ml_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/female_voice_0/hifi.zip) |
+| Malayalam | ml | Male | [ml_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/glow.zip) | [ml_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/hifi.zip) |
 
+
+**Dataset Credits: We thanks IITM for providing open source Indic-TTS dataset. [Link](https://www.iitm.ac.in/donlab/tts/database.php)**
+
+<br><br>
+
+<a name="pam"></a>
 ## Pretrained ASR Models
 
 
@@ -34,6 +48,7 @@ Credits: We thanks IITM for providing open sourcing Indic-TTS dataset<br>
 
 <br>
 
+<a name="fam"></a>
 
 ## Finetuned ASR Models (works on [v2-hydra](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/v2-hydra) branch*)
 
@@ -61,6 +76,7 @@ Credits: We thanks IITM for providing open sourcing Indic-TTS dataset<br>
 
 
 
+<a name="lm"></a>
 
 ## Language Models (Works with Finetuned ASR Models)
 
@@ -89,12 +105,13 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Assamese | kenlm 5-gram | [assamese_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lexicon.lst) | [assamese_lm](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lm.binary) | [assamese_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/assamese.zip)
 | Hinglish | kenlm 5-gram | [hinglish_lexicon]() | [hinglish_lm]() | [hinglish_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/hinglish.zip)
 
-## Domain Specific Language Models
+### Domain Specific Language Models
 | Language | Type | Domain | Lexicon | LM | Text Corpus | 
 |----|--------|---------|------|---|------|
 | English | kenlm 5-gram | Biomedical | [bio_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lexicon.lst ) | [bio_lm](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lm.binary) | [bio_lm_eng_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/biomedical_data_english.zip)
 
 
+<a name="pm"></a>
 ## Punctuation Models
 | Language | Model | Data | 
 |----------|-------|-------|
@@ -112,7 +129,7 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 
 Credits for punctuation data - [IndicCorp AI4Bharat](https://indicnlp.ai4bharat.org/corpora/)
 
-
+<a name="gcm"></a>
 ## Gender Classification Model
 Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-gender-classification)
 
@@ -120,6 +137,7 @@ Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-gender-classif
 |----------|-------|
 |  Gender Classification |[Model](https://storage.googleapis.com/vakyansh-open-models/gender_classification/model/clf_svc.sav) |
 
+<a name="lim"></a>
 ## Language Identification Models
 Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-language-identification)
 
@@ -129,8 +147,8 @@ Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-language-ident
 |  Tamil_vs_Others |[Model](https://storage.googleapis.com/vakyansh-open-models/language_identification/Tamil_vs_Other/tamil_vs_others.pt) |
 
 
-
-## Interspeech 2021 data ASR Models
+<a name="iam"></a>
+## Interspeech 2021 ASR Models
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference |
 |----|--------|----|-----|-------------------|
