@@ -125,17 +125,17 @@ Language models  integrate with finetuned models.
 ## Punctuation Models
 | Language | Model | Data | 
 |----------|-------|-------|
-| Hindi | [hi.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/hi.zip)| [hindi_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/hindi.zip)|
-| Assamese | [as.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/as.zip)| [assamese_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/assamese.zip) |
-| Bengali | [bn.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/bn.zip)| [bengali_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/bengali.zip)|
-| Gujarati | [gu.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/gu.zip)| [gujarati_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/gujarati.zip)|
-| Kannada | [kn.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/kn.zip)| [kannada_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/kannada.zip)|
-| Malayalam | [ml.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/ml.zip)| [malayalam_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/malayalam.zip)|
-| Marathi | [mr.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/mr.zip)| [marathi_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/marathi.zip)|
-| Odia | [or.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/or.zip)| [odia_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/oria.zip)|
-| Punjabi | [pa.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/pa.zip)| [punjabi_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/punjabi.zip)|
-| Tamil | [ta.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/ta.zip)| [tamil_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/tamil.zip)|
-| Telugu | [te.zip](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/te.zip)| [telugu_data](https://storage.googleapis.com/vakyaansh-open-models/punctuation_models/telugu.zip)|
+| Hindi | [hi.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/hi.zip)| [hindi_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/hindi.zip)|
+| Assamese | [as.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/as.zip)| [assamese_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/assamese.zip) |
+| Bengali | [bn.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/bn.zip)| [bengali_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/bengali.zip)|
+| Gujarati | [gu.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/gu.zip)| [gujarati_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/gujarati.zip)|
+| Kannada | [kn.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/kn.zip)| [kannada_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/kannada.zip)|
+| Malayalam | [ml.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/ml.zip)| [malayalam_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/malayalam.zip)|
+| Marathi | [mr.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/mr.zip)| [marathi_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/marathi.zip)|
+| Odia | [or.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/or.zip)| [odia_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/oria.zip)|
+| Punjabi | [pa.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/pa.zip)| [punjabi_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/punjabi.zip)|
+| Tamil | [ta.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/ta.zip)| [tamil_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/tamil.zip)|
+| Telugu | [te.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/te.zip)| [telugu_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/telugu.zip)|
 
 Credits for punctuation data - [IndicCorp AI4Bharat](https://indicnlp.ai4bharat.org/corpora/)
 
