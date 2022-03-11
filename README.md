@@ -31,13 +31,14 @@ Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-t
 | Malayalam | ml | Male | [ml_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/glow.zip) | [ml_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/malayalam/ml-IN/male_voice_1/hifi.zip) |
 
 
-**Dataset Credits: We thanks IITM for providing open source Indic-TTS dataset. [Link](https://www.iitm.ac.in/donlab/tts/database.php)**
+**Dataset Credits: We thanks IITM for open sourcing Indic-TTS dataset. [Link](https://www.iitm.ac.in/donlab/tts/database.php)**
 
 <br><br>
 
 <a name="pam"></a>
 ## Pretrained ASR Models
 
+**[Repo](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)**
 
 | Pretrained Model | Description | Architecture | Pretrained Hours |
 |------------------|----------|----|---------|
@@ -46,11 +47,13 @@ Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-t
 | [kannada_pretrained_1400h](https://storage.googleapis.com/vakyaansh-open-models/kannada/pretrained/kannada_pretrained_1400h.pt) | Trained on 1400 hours of Kannada data| XLSR | 1400             | 
 
 
-<br>
+<br><br>
 
 <a name="fam"></a>
 
-## Finetuned ASR Models (works on [v2-hydra](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/v2-hydra) branch*)
+## Finetuned ASR Models
+
+**[Repo](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)**
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference | Finetuned Hours | TS model |
 |----|--------|----|-----|-------------------|-------|---|
@@ -74,13 +77,16 @@ Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-t
 | Rajasthani | CLSRIL-23 | [raj_45h](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/raj_45h.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/dict.ltr.txt) | [rajasthani_infer](https://storage.googleapis.com/vakyansh-open-models/models/rajasthani/raj-IN/rajasthani_infer.pt) | 45 h |
 | Assamese | CLSRIL-23 | [asm_8h](https://storage.googleapis.com/vakyansh-open-models/models/assamese/asm_8.pt) | [dict](https://storage.googleapis.com/vakyansh-open-models/models/assamese/dict.ltr.txt) | [assamese_infer](https://storage.googleapis.com/vakyansh-open-models/models/assamese/assamese_infer.pt) | 8 h |
 
+<br><br>
 
 
 <a name="lm"></a>
 
-## Language Models (Works with Finetuned ASR Models)
+## Language Models
 
-Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora/) but we do post processing by tokenizing and removing duplicates.
+**[Repo](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)**
+
+Language models  integrate with finetuned models. 
 
 | Language | Type | Lexicon | LM | Text Corpus | 
 |----|--------|---------|------|------|
@@ -105,12 +111,16 @@ Data is taken from [AI For Bharat Corpus](https://indicnlp.ai4bharat.org/corpora
 | Assamese | kenlm 5-gram | [assamese_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lexicon.lst) | [assamese_lm](https://storage.googleapis.com/vakyansh-open-models/models/assamese/lm.binary) | [assamese_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/assamese.zip)
 | Hinglish | kenlm 5-gram | [hinglish_lexicon]() | [hinglish_lm]() | [hinglish_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/hinglish.zip)
 
+
+**Dataset Credits: We thanks AI4Bharat for open sourcing Indic-Corp dataset. [Link](https://indicnlp.ai4bharat.org/corpora/)**. We modified the original data by tokenizing and removing duplicates.
+
+
 ### Domain Specific Language Models
 | Language | Type | Domain | Lexicon | LM | Text Corpus | 
 |----|--------|---------|------|---|------|
 | English | kenlm 5-gram | Biomedical | [bio_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lexicon.lst ) | [bio_lm](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lm.binary) | [bio_lm_eng_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/biomedical_data_english.zip)
 
-
+<br><br>
 <a name="pm"></a>
 ## Punctuation Models
 | Language | Model | Data | 
