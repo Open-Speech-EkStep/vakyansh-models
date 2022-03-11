@@ -112,7 +112,7 @@ Language models  integrate with finetuned models.
 | Hinglish | kenlm 5-gram | [hinglish_lexicon]() | [hinglish_lm]() | [hinglish_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/hinglish.zip)
 
 
-**Dataset Credits: We thanks AI4Bharat for open sourcing Indic-Corp dataset. [Link](https://indicnlp.ai4bharat.org/corpora/)**. We modified the original data by tokenizing and removing duplicates.
+**Dataset Credits: We thanks AI4Bharat for open sourcing the Indic-Corp dataset. [Link](https://indicnlp.ai4bharat.org/corpora/)**. We modified the original data by tokenizing and removing duplicates.
 
 
 ### Domain Specific Language Models
@@ -121,8 +121,14 @@ Language models  integrate with finetuned models.
 | English | kenlm 5-gram | Biomedical | [bio_lexicon](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lexicon.lst ) | [bio_lm](https://storage.googleapis.com/vakyansh-open-models/models/english/bio-lm/lm.binary) | [bio_lm_eng_text](https://storage.googleapis.com/vakyansh-open-models/language_model_text/biomedical_data_english.zip)
 
 <br><br>
+
 <a name="pm"></a>
 ## Punctuation Models
+
+**[Training Repo](https://github.com/Open-Speech-EkStep/punctuation-ITN/tree/wandb-v1/sequence_labelling)**
+
+**[Inference Repo](https://github.com/Open-Speech-EkStep/indic-punct)**
+
 | Language | Model | Data | 
 |----------|-------|-------|
 | Hindi | [hi.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/hi.zip)| [hindi_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/hindi.zip)|
@@ -137,28 +143,35 @@ Language models  integrate with finetuned models.
 | Tamil | [ta.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/ta.zip)| [tamil_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/tamil.zip)|
 | Telugu | [te.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/te.zip)| [telugu_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/telugu.zip)|
 
-Credits for punctuation data - [IndicCorp AI4Bharat](https://indicnlp.ai4bharat.org/corpora/)
+
+**Dataset Credits: We thanks AI4Bharat for open sourcing the Indic-Corp dataset. [Link](https://indicnlp.ai4bharat.org/corpora/)**. We modified the original data by tokenizing and removing duplicates.
+
+<br><br>
 
 <a name="gcm"></a>
 ## Gender Classification Model
-Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-gender-classification)
+**[Repo](https://github.com/Open-Speech-EkStep/ekstep-gender-classification)**
 
-| Type | Data | 
-|----------|-------|
-|  Gender Classification |[Model](https://storage.googleapis.com/vakyansh-open-models/gender_classification/model/clf_svc.sav) |
+| Type | Model Type | Model | 
+|----------|----|---|
+|  Gender Classification | SVC | [Model](https://storage.googleapis.com/vakyansh-open-models/gender_classification/model/clf_svc.sav) |
 
+<br><br>
 <a name="lim"></a>
 ## Language Identification Models
-Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-language-identification)
+**[Repo](https://github.com/Open-Speech-EkStep/ekstep-language-identification)**
 
-| Type | Data | 
+| Type | Model | 
 |----------|-------|
 |  Hindi_vs_Others |[Model](https://storage.googleapis.com/vakyansh-open-models/language_identification/Hindi_vs_Other/hindi_vs_others.pt) |
 |  Tamil_vs_Others |[Model](https://storage.googleapis.com/vakyansh-open-models/language_identification/Tamil_vs_Other/tamil_vs_others.pt) |
 
+<br><br>
 
 <a name="iam"></a>
 ## Interspeech 2021 ASR Models
+
+[Comp Link](https://navana-tech.github.io/MUCS2021/)
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference |
 |----|--------|----|-----|-------------------|
@@ -169,7 +182,7 @@ Link to [Repository](https://github.com/Open-Speech-EkStep/ekstep-language-ident
 
 
 
-<br>
+<br><br>
 
 ## Citation 
 
