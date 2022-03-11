@@ -34,7 +34,7 @@ Below models are trained using [Glow TTS](https://github.com/jaywalnut310/glow-t
 | Bengali | bn | Female | [bn_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/female_voice_0/glow.zip) | [bn_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/female_voice_0/hifi.zip) |
 | Bengali | bn | Male | [bn_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/male_voice_1/glow.zip) | [bn_0_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/bengali/bn-IN/male_voice_1/hifi.zip) |
 | English | en | Female | [en_0_glow](https://storage.googleapis.com/vakyansh-open-models/tts/english/en-IN/female_voice_0/glow.zip) | [en_0_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/female_voice_0/hifi.zip) |
-| English | en | Male | [en_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/english/en-IN/male_voice_1/glow.zip) | [en_1_hifi](ttps://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
+| English | en | Male | [en_1_glow](https://storage.googleapis.com/vakyansh-open-models/tts/english/en-IN/male_voice_1/glow.zip) | [en_1_hifi](https://storage.googleapis.com/vakyansh-open-models/tts/hindi/hi-IN/male_voice_1/hifi.zip) |
 
 
 **Dataset Credits: We thanks IITM for open sourcing Indic-TTS dataset. [Link](https://www.iitm.ac.in/donlab/tts/database.php)**
