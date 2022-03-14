@@ -1,13 +1,13 @@
 # Vakyansh Open Source Models
 
-1. [ TTS Models ](#tts)
-2. [ Pretrained ASR Models ](#pam)
-3. [ Finetuned ASR Models ](#fam)
-4. [ Language Models ](#lm)
-5. [ Punctuation Models ](#pm)
-6. [ Gender Classification Models ](#gcm)
-7. [ Language Identification Models ](#lim)
-8. [Interspeech 2021 ASR Models](#iam)
+1. [ TTS Models ](#tts-models)
+2. [ Pretrained ASR Models ](#pretrained-asr-models)
+3. [ Finetuned ASR Models ](#finetuned-asr-models)
+4. [ Language Models ](#language-models)
+5. [ Punctuation Models ](#punctuation-models)
+6. [ Gender Classification Model ](#gender-classification-model)
+7. [ Language Identification Models ](#language-identification-models)
+8. [ Interspeech 2021 ASR Models ](#interspeech-2021-asr-models)
 
 <a name="tts"></a>
 ## TTS Models 
