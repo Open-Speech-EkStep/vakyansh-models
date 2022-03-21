@@ -149,7 +149,7 @@ Language models  integrate with finetuned models.
 | Telugu | [te.zip](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/te.zip)| [telugu_data](https://storage.googleapis.com/vakyansh-open-models/punctuation_models/training_data/telugu.zip)|
 
 
-**Dataset Credits: We thanks AI4Bharat for open sourcing the Indic-Corp dataset. [Link](https://indicnlp.ai4bharat.org/corpora/)**. We modified the original data by tokenizing and removing duplicates.
+**Dataset Credits: We thank AI4Bharat for open sourcing the Indic-Corp dataset. [Link](https://indicnlp.ai4bharat.org/corpora/)**. We modified the original data by tokenizing and removing duplicates.
 
 <br><br>
 
