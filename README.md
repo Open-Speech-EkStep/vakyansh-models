@@ -30,6 +30,7 @@
 ## Finetuned ASR Models
 
 **[Repo](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)**
+
 **Citation:** https://arxiv.org/abs/2203.16512 
 
 | Language | Pretrained Model | Finetuned Model | Dictionary | Single Model for Inference | Finetuned Hours | TS model |
