@@ -14,13 +14,15 @@
 <a name="pam"></a>
 ## Pretrained ASR Models
 
-**[Repo](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)**
+**[wav2vec2-code](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)** | **[nemo-code](https://github.com/Open-Speech-EkStep/vakyansh-nemo-experimentation)** 
 
-| Pretrained Model | Description | Architecture | Pretrained Hours |
+| Pretrained Model | Description | Architecture | Hours |
 |------------------|----------|----|---------|
-| [CLSRIL-23](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/clsril-23/CLSRIL-23.pt) | Cross Lingual Speech Representations for Indic Languages, Contains 10,000 hours of training data from 23 Indic Languages. <br> [Citation: https://arxiv.org/abs/2107.07402 ](https://arxiv.org/abs/2107.07402 ) | Base | 10,000               | 
-| [hindi_pretrained_4kh](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/hindi/hindi_pretrained_4kh.pt) | Trained on 4200 hours of Hindi Data| Base |  4200             |  
-| [kannada_pretrained_1400h](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/kannada/kannada_pretrained_1400h.pt) | Trained on 1400 hours of Kannada data| XLSR | 1400             | 
+| [Vakyansh-Conformer-SSL](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/vakyansh-conformer-ssl/ssl_conformer_large_e178.nemo) | This model was pre-trained using Nemo toolkit  with 34,000 hours unlabeled audio in 39 Indian languages. This includes 15,000 hours of news recordings available on the internet, 10,000 hours of YouTube audios and other audio data. In addition, 9,000 hours of Indian English audio data was taken from NPTEL lectures open sourced by AI4Bharat. | Conformer-Large | 34,000 |
+| [CLSRIL-23](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/clsril-23/CLSRIL-23.pt) | Cross Lingual Speech Representations for Indic Languages, Contains 10,000 hours of training data from 23 Indic Languages. <br> [Citation: https://arxiv.org/abs/2107.07402 ](https://arxiv.org/abs/2107.07402 ) | wav2vec2-Base | 10,000               | 
+| [hindi_pretrained_4kh](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/hindi/hindi_pretrained_4kh.pt) | Trained on 4200 hours of Hindi Data| wav2vec2-Base |  4,200             |  
+| [kannada_pretrained_1400h](https://storage.googleapis.com/vakyansh-open-models/pretrained_models/kannada/kannada_pretrained_1400h.pt) | Trained on 1400 hours of Kannada data| wav2vec2-XLSR | 1,400             | 
+
 
 
 <br><br>
