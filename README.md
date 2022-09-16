@@ -31,6 +31,20 @@
 
 ## Finetuned ASR Models
 
+### Conformer based models
+**[Repo](https://github.com/Open-Speech-EkStep/vakyansh-nemo-experimentation)**
+
+| Language | Pretrained Model | Finetuned Model | Finetuned Hours | Arch |
+|----|--------|----|-----|---|
+| Hindi | Vakyansh Conformer SSL | [hindi_large_ssl_2500](https://storage.googleapis.com/vakyansh-open-models/conformer_models/hindi/filtered_v1_ssl_2022-07-08_19-43-25/Conformer-CTC-BPE-Large.nemo) | 2,500 h | Large |
+| Indian English | Vakyansh Conformer SSL | [indian_en_large_ssl_700](https://storage.googleapis.com/vakyansh-open-models/conformer_models/english/2022-09-13_15-50-48/Conformer-CTC-BPE-Large.nemo) | 700 h | Large |
+| Kannada | Vakyansh Conformer SSL | [kannada_large_ssl_1000](https://storage.googleapis.com/vakyansh-open-models/conformer_models/kannada/iisc_noa_2022-08-30_22-45-15/Conformer-CTC-BPE-Large.nemo) | 1,000 h | Large |
+| Punjabi | Vakyansh Conformer SSL | [punjabi_large_ssl_500](https://storage.googleapis.com/vakyansh-open-models/conformer_models/punjabi/sme_noa_2022-08-23_19-56-08/Conformer-CTC-BPE-Large.nemo) | 500 h | Large |
+| Tamil | Vakyansh Conformer SSL | [tamil_large_ssl_900](https://storage.googleapis.com/vakyansh-open-models/conformer_models/tamil/iisc_noa_2022-09-03_14-06-50/Conformer-CTC-BPE-Large.nemo) | 900 h | Large |
+
+<br><hr>
+### wav2vec2 based models
+
 **[Repo](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)**
 
 **Citation:** https://arxiv.org/abs/2203.16512 
